@@ -1,7 +1,4 @@
-
-{
-  "code": 200,
-  "response": [
+[
     {
       "name": "Pacu",
       "cientificName": "Piaractus mesopotamicus",
@@ -11,8 +8,7 @@
       "deslike": 2,
       "x": "100.0000000000001",
       "y": "-410.0000000000001",
-      "comments": {
-        "data": [
+      "comments": [
           {
             "from": "1",
             "comment": "Esse peixe é um brincalhão, adora uma isca de pão"
@@ -24,7 +20,6 @@
             "comment": "Mentira que ele tá aqui na região, nesse clima?"
           }
         ]
-      }
     }, {
       "name": "Pintado",
       "cientificName": "Pseudoplatystoma corruscans",
@@ -62,4 +57,3 @@
 
     }
   ]
-}
