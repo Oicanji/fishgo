@@ -21,9 +21,15 @@ app.get('/users', (req, res) => {
   res.json(dados);
 });
 
+app.get('/me', (req, res) => {
+    const dados = require('./data/user.json');
+    res.json(dados);
+});
+
 app.get('/', (req, res) => {
   res.send('Hello World!');
 });
+
 
 // Inicia o servidor
 app.listen(PORT, () => {

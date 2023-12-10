@@ -7,14 +7,19 @@ export function Home({navigation}){
         navigation.navigate('Fish')
     }
 
+    function goProfile(){
+        navigation.navigate('Profile')
+    }
+
     return(
         <View>
         <Image
             style={{width: 'auto', height: '80vh'}}
             source={require('../../../assets/images/map.jpg')}
         />
-            <Text>GO FISH: </Text>
-            <Button title="ENTER" onPress={() => goFish()} />
+            <Text>Debug Navegation </Text>
+            <Button title="GO PACU TEST" onPress={() => goFish()} />
+            <Button title="GO MY PROFILE" onPress={() => goProfile()} />
         </View>
     )
 }
